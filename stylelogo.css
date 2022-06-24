@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    
+    display: flex;
+    min-height: 70px;
+    background-color: rgba(220, 188, 31, 0.989);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+   
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 60px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+nav a{
+    font-weight: 700;
+    padding-right: 50px;
+    
+}
+nav a:hover {
+    color: rgb(251, 245, 245);
+
+}
+@media (max-width:700px){
+    header{
+        flex-direction:column ;
+
+
+    }
+    nav a{
+        padding-right: 10px;
+    }
+
+}
+.nombre-pagina {
+
+    text-align: center;
+      
+  }
+body {
+      height: 1000px;
+      background-repeat: no-repeat;
+      background-position-x: scenter ;
+      background-position-y:center ;
+      background-size: cover;
+      background-attachment: fixed;
+      
+      
+      
+  }
+h1 {
+      font-family:lobster;
+      color: aqua;
+      
+       font-size: 1000%;
+       
+       position: relative;
+       z-index: 2;
+       margin: 1px;
+      
+  }
+  
+  
+h2 {
+      font-size: 500%;
+      color: rgb(136, 20, 204);
+      text-align: center;
+      position: relative;
+      z-index: 2;
+  
+  
+  
+  }
+.contenedor {
+   display: flex ;
+   background-color: rgba(230, 238, 18, 0.734);
+   justify-content:space-between;
+   padding: 10px;
+   margin: 5px;
+   border: 20px ;
+   border-color: rgba(12, 8, 8, 0.948);
+   border-style: solid;
+   position: relative;
+   z-index: 2;
+   
+      
+  
+  }
+.contenedor div{
+    
+      background-color: gainsboro;
+      width:100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+      border:  2px solid blue ;
+      font-family: lobster;
+  }
+.c-imagenes {
+      display: flex;
+  
+      justify-content: space-between;
+      
+  }
+.c-imagenes div{
+  
+      background-color: aqua;
+      padding: 10px;
+      margin: 10px;
+      border-style: solid;
+      border-color: black;
+      position: relative;
+      z-index: 2;
+      
+  }
+  
+.hero {
+      min-height: 100vh;
+      position: relative;
+  
+  }
+  
+video {
+  
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      height: 200%;
+      object-fit: cover;
+  }
+.capa {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height:100%;s
+      background: #1c1c1d;
+      opacity: 0.5;
+      mix-blend-mode: overlay;
+      
+  }
+header{
+    position: relative;
+    z-index: 2;
+}
+@media (max-width:700px){
+    .c-imagenes {
+       
+        flex-direction: column;
+
+    }
+    .i1{
+        height: 200px;
+        width: 200px;
+    }
+
+}
+h6{
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    position: relative;
+   z-index: 2;
+    color: red;
+    margin-top: 300px;
+}
